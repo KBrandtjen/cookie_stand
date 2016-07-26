@@ -38,7 +38,7 @@ firstAndPike.render = function() {
     listElement.textContent = hours[i] + ':' + this.cookiesPerHourArray[i] + 'cookies';
     pikeList.appendChild(listElement);
   }
-// document.body.appendChild(pikeList);
+  document.body.appendChild(pikeList);
   var pikeTotal = document.createElement('li');
   pikeTotal.textContent = 'Total: ' + this.totalDailyCookieSales;
   pikeList.appendChild(pikeTotal);
@@ -84,7 +84,7 @@ seatac.render = function() {
     listElement.textContent = hours[i] + ':' + this.cookiesPerHourArray[i] + 'cookies';
     seatacList.appendChild(listElement);
   }
-// document.body.appendChild(pikeList);
+  document.body.appendChild(seatacList);
   var seatacTotal = document.createElement('li');
   seatacTotal.textContent = 'Total: ' + this.totalDailyCookieSales;
   seatacList.appendChild(seatacTotal);
@@ -96,9 +96,9 @@ seatac.render();
 var seattleCenter = {
 // Properties
   location: 'Seattle Center',
-  minCust: 23,
-  maxCust: 65,
-  avgCookie: 6.3,
+  minCust: 11,
+  maxCust: 38,
+  avgCookie: 3.7,
   custEachHourArray: [],
   cookiesPerHourArray: [],
   totalDailyCookieSales: 0
@@ -129,7 +129,7 @@ seattleCenter.render = function() {
     listElement.textContent = hours[i] + ':' + this.cookiesPerHourArray[i] + 'cookies';
     seattleCenterList.appendChild(listElement);
   }
-// document.body.appendChild(pikeList);
+  document.body.appendChild(seattleCenterList);
   var seattleCenterTotal = document.createElement('li');
   seattleCenterTotal.textContent = 'Total: ' + this.totalDailyCookieSales;
   seattleCenterList.appendChild(seattleCenterTotal);
@@ -140,9 +140,9 @@ seattleCenter.render();
 var capitolHill = {
 // Properties
   location: 'Capitol Hill',
-  minCust: 23,
-  maxCust: 65,
-  avgCookie: 6.3,
+  minCust: 20,
+  maxCust: 38,
+  avgCookie: 2.3,
   custEachHourArray: [],
   cookiesPerHourArray: [],
   totalDailyCookieSales: 0
@@ -173,7 +173,7 @@ capitolHill.render = function() {
     listElement.textContent = hours[i] + ':' + this.cookiesPerHourArray[i] + 'cookies';
     capitolHillList.appendChild(listElement);
   }
-// document.body.appendChild(pikeList);
+  document.body.appendChild(capitolHillList);
   var capitolHillTotal = document.createElement('li');
   capitolHillTotal.textContent = 'Total: ' + this.totalDailyCookieSales;
   capitolHillList.appendChild(capitolHillTotal);
@@ -184,9 +184,9 @@ capitolHill.render();
 var alki = {
 // Properties
   location: 'Alki',
-  minCust: 23,
-  maxCust: 65,
-  avgCookie: 6.3,
+  minCust: 2,
+  maxCust: 16,
+  avgCookie: 4.6,
   custEachHourArray: [],
   cookiesPerHourArray: [],
   totalDailyCookieSales: 0
@@ -217,7 +217,7 @@ alki.render = function() {
     listElement.textContent = hours[i] + ':' + this.cookiesPerHourArray[i] + 'cookies';
     alkiList.appendChild(listElement);
   }
-// document.body.appendChild(pikeList);
+  document.body.appendChild(alkiList);
   var alkiTotal = document.createElement('li');
   alkiTotal.textContent = 'Total: ' + this.totalDailyCookieSales;
   alkiList.appendChild(alkiTotal);
