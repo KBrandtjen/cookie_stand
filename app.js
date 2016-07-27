@@ -50,20 +50,12 @@ function StoreLocation(locationName, minCust, maxCust, avgCookie) {
   };
 };
 
-var firstAndPike = new StoreLocation('First and Pike', 23, 65, 6.3); firstAndPike.render();//eslint-disable-line
-var seatac = new StoreLocation('Seatac Airport', 3, 24, 1.2); seatac.render();//eslint-disable-line
-var seattleCenter = new StoreLocation('Seattle Center', 11, 38, 3.7); seattleCenter.render();//eslint-disable-line
-var capitolHill = new StoreLocation('Capitol Hill', 20, 38, 2.3); capitolHill.render();//eslint-disable-line
-var alki = new StoreLocation('Alki', 2, 16, 4.6);//eslint-disable-line
-alki.render();
-
 function makeHeaderRow() {
   var cookieTable = document.getElementById('storeData');
   var headerRow = document.createElement('tr');
   var emptyElement = document.createElement('th');
   emptyElement.textContent = '';
   headerRow.appendChild(emptyElement);
-
   for (var i = 0; i < hours.length; i++) {
     var hoursRow = document.createElement('th');
     hoursRow.textContent = hours[i];
@@ -75,6 +67,14 @@ function makeHeaderRow() {
   cookieTable.appendChild(headerRow);
 }
 makeHeaderRow();
+
+var firstAndPike = new StoreLocation('First and Pike', 23, 65, 6.3); firstAndPike.render();//eslint-disable-line
+var seatac = new StoreLocation('Seatac Airport', 3, 24, 1.2); seatac.render();//eslint-disable-line
+var seattleCenter = new StoreLocation('Seattle Center', 11, 38, 3.7); seattleCenter.render();//eslint-disable-line
+var capitolHill = new StoreLocation('Capitol Hill', 20, 38, 2.3); capitolHill.render();//eslint-disable-line
+var alki = new StoreLocation('Alki', 2, 16, 4.6);//eslint-disable-line
+alki.render();
+
 
 function makeFooterRow() {
   var cookieTable = document.getElementById('storeData');
