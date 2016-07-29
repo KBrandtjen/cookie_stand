@@ -5,23 +5,40 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <header>
+      <div id="headerBox">
+      <section class="fishHeader">
+      <div id="pats">
+        Pat's Salmon Cookies
+      </div>
+      <div id="established">
+      Est. 2016
+      </div>
+      <div>
+      <img src="img/salmon.png" id='salmon'/>
+      <img src="img/chinook.jpg" id='chinook'/>
+      </div>
+      </section>
+    </div>
+    </header>
     <form id="cookieForm">
       <fieldset>
-      <legend>Enter Necessary Information</legend>
-
+      <legend>Create New Location</legend>
+      <div class="entryBoxes">
       <label for="newLocation">Location Name:</label>
-      <input name="newLocation" type="text" />
+      <input name="newLocation" type="text" "required"/>
 
       <label for="newMinCust">Min. Customers:</label>
-      <input name="newMinCust" type="text" />
+      <input name="newMinCust" type="value" "required"/>
 
       <label for="newMaxCust">Max Customers:</label>
-      <input name="newMaxCust" type="text" />
+      <input name="newMaxCust" type="value" "required"/>
 
       <label for="newAvgCookie">Average Cookies:</label>
-      <input name="newAvgCookie" type="text" />
+      <input name="newAvgCookie" type="value" "required"/>
 
       <button type="submit">Cookie Time!</button>
+      </div>
       </fieldset>
     </form>
     <table id="storeData"></>

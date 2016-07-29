@@ -6,7 +6,7 @@ var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '
 var cookieForm = document.getElementById('cookieForm');
 //gives access to table
 var cookieTable = document.getElementById('storeData');
-
+//var reset
 var locationStuff = [];
 
 function StoreLocation(locationName, minCust, maxCust, avgCookie) {
@@ -17,7 +17,8 @@ function StoreLocation(locationName, minCust, maxCust, avgCookie) {
   this.custEachHourArray = [];
   this.cookiesPerHourArray = [];
   this.totalDailyCookieSales = 0;
-
+  //add this.calcCustEachHour();
+  //add this.calcCookiesEachHour();
   locationStuff.push(this);
 };
 
@@ -73,16 +74,17 @@ function handleCommentSubmit(event) {
   if (!event.target.newLocation.value || !event.target.newMinCust.value || !event.target.newMaxCust.value || !event.target.newAvgCookie.value) {
     return alert('Fields cannot be empty!');
   }
+//getting info from html and assigning (=) them to the function
   var newLocation = (event.target.newLocation.value);
   var newMinCust = parseInt(event.target.newMinCust.value);
   var newMaxCust = parseInt(event.target.newMaxCust.value);
   var newAvgCookie = parseFloat(event.target.newAvgCookie.value);
   console.log(newLocation, newMinCust, newMaxCust, newAvgCookie);
-
+// new object being created with the constructor
   new StoreLocation(newLocation, newMinCust, newMaxCust, newAvgCookie);
   // First, access the table on the DOM.
   var cookieTable = document.getElementById('storeData');
-    // Add content to the table.
+    // Add content to the table. textContent is adding content to the cookie table in html but by putting html it makes that null. If we didn't have it then it would create a new table each time. null makes this new table not exist. The next 3 lines remake the header render all store and footer with the new data.
   cookieTable.textContent = null;
     // Run makeHeaderRow function.
   makeHeaderRow();
