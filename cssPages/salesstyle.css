@@ -1,0 +1,93 @@
+
+
+body {
+  background-color: #839366;
+}
+
+
+header {
+  border: solid;
+  padding-top: 35px;
+  line-height: 30px;
+  background-color: #F1BF98;
+  height: 175px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pats {
+  font-family: cursive;
+  font-size: 35px;
+}
+
+#established {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.fishHeader {
+
+  border-bottom: solid;
+
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+#headerBox {}
+
+
+#chinook {
+  height: 50px;
+  width: auto;
+}
+
+#salmon {
+  height: 45px;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+#storeData {
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-family: sans-serif;
+}
+
+fieldset {}
+
+label {
+  margin-left: 125px;
+}
+
+input {
+  margin-left: 115px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #E1F4CB;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E1F4CB;
+}
+
+table {
+  background-color: #E1F4CB;
+  text-transform: capitalize;
+}
