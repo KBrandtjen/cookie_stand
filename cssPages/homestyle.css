@@ -1,51 +1,183 @@
 body {
-  background-color: #839366;
+  background-color: #64704D;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-
 header {
-  border: solid;
-  padding-top: 35px;
-  line-height: 30px;
+  line-height: 50px;
   background-color: #F1BF98;
-  height: 175px;
-  width: 1000px;
+  height: 350px;
+  width: 100%
   margin-left: auto;
   margin-right: auto;
+  border: 0px;
 }
 
 #pats {
-  font-family: cursive;
-  font-size: 35px;
+  font-size: 70px;
 }
 
 #established {
-  font-family: cursive;
   font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .fishHeader {
 
-  border-bottom: solid;
-
-  width: 400px;
+  border-bottom-style: double;
+  width: 650px;
   text-align: center;
   margin-left: auto;
   margin-right:auto;
+  padding-top: 65px;
+  font-family: 'Yellowtail', cursive;
 
 }
 
-#headerBox {}
+#headerBox {
+}
+
 
 
 #chinook {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 
 #salmon {
-  height: 45px;
+  height: 65px;
   width: auto;
   margin-bottom: 5px;
   margin-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: black;
+  color: #F1BF98;
+  height: 75px;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  border-right: solid 1px #F1BF98;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 50px;
+  padding-right: 70px;
+  height: 75px;
+}
+
+#socialNav {
+  border: none;
+}
+
+#aboutSection {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  margin-top: 75px;
+  height: 400px;
+  border: solid;
+  border-radius: 5px;
+}
+
+#about {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  color: #F1BF98;
+  float: top-left;
+  margin-left: 25px;
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 200px;
+}
+
+#location {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  color: #F1BF98;
+  float: top-left;
+  margin-left: 25px;
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 200px;
+}
+
+#locationSection {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  margin-top: 75px;
+  height: 400px;
+  border: solid;
+  border-radius: 5px;
+}
+
+#shop {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  color: #F1BF98;
+  float: top-left;
+  margin-left: 25px;
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 200px;
+}
+
+#shopSection {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  margin-top: 75px;
+  height: 400px;
+  border: solid;
+  border-radius: 5px;
+}
+
+#social {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  color: #F1BF98;
+  float: top-left;
+  margin-left: 25px;
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 200px;
+}
+
+#socialSection {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  margin-top: 75px;
+  height: 400px;
+  border: solid;
+  border-radius: 5px;
 }
